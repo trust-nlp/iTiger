@@ -94,9 +94,13 @@ input, textarea {
 }
 .navbar-brand {
     padding: 0px 0px 0px 15px;
+    position: relative; 
+    z-index: 10;
 }
 .navbar-brand img {
     width:180px;
+    position: relative; 
+    z-index: 10;
 }
 #navigation ul li a {
     color: #444444;
